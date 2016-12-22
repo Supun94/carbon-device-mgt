@@ -42,7 +42,9 @@
             <maxRetries>5</maxRetries>
             <minRetriesToMarkUnreachable>8</minRetriesToMarkUnreachable>
             <minRetriesToMarkInactive>20</minRetriesToMarkInactive>
-            <!--<PolicyEvaluationPoint>Simple</PolicyEvaluationPoint>-->
+            <!--Set the policy evaluation point name (Simple/Merged)-->
+            <!--Simple -  Simple policy evaluation point-->
+            <!--Merged -  Merged policy evaluation point -->
             <PolicyEvaluationPoint>Simple</PolicyEvaluationPoint>
         </PolicyConfiguration>
     </ManagementRepository>
